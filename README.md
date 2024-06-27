@@ -17,7 +17,7 @@
 ### 交通模拟
 
 - [LimSim](https://github.com/PJLab-ADG/LimSim) - Integrated traffic and autonomous driving simulators with (M)LLM support 交通模拟
-
+- [交通模拟合集](https://github.com/zachytong/Awesome-Traffic-Simulation) -
 
 
 ### 交通情况分类
@@ -33,3 +33,4 @@
 ## 其他
 
 - [Datasets are not enough: Challenges in labeling network traffic](https://www.sciencedirect.com/science/article/abs/pii/S0167404822002048) - 交通网络数据准备（2022）
+- [交通轨迹预测合集](https://github.com/Psychic-DL/Awesome-Traffic-Agent-Trajectory-Prediction) -
