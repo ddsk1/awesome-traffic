@@ -30,7 +30,7 @@
 ### LLM其他
 
 - [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM) - Spatial-Temporal Large Language Model for Traffic Prediction 交通流量预测
-- [A-bidirectional-GPT-approach-for-detecting-malicious-network-traffic](https://github.com/ole-knf/A-bidirectional-GPT-approach-for-detecting-malicious-network-traffic) - 车载局域网入侵检测
+
 
 ## 其他
 
