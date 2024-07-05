@@ -4,6 +4,7 @@
     - [交通模拟](#交通模拟)
     - [交通情况分类](#交通情况分类)
     - [场景理解](#场景理解)
+    - [驾驶员行为分析](#驾驶员行为分析)
     - [其他](#LLM其他)
 - [其他](#其他)
     - [基础模型](#基础模型)
@@ -29,11 +30,6 @@
 - [ET-BERT](https://github.com/linwhitehat/ET-BERT) - 交通情况分类 （2022）
 - [NetGPT](https://arxiv.org/abs/2304.09513) - 没有代码，交通情况分类
 
-### LLM其他
-
-- [TransGPT · 致远](https://github.com/DUOMO/TransGPT) - 通用常识交通大模型,交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能
-- [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM) - Spatial-Temporal Large Language Model for Traffic Prediction 交通流量预测
-- [GPT-ST](https://github.com/hkuds/gpt-st) - 交通管理和出行规划的时空预测
 
 ### 场景理解
 
@@ -43,7 +39,22 @@
 - [Drive Like A Human](https://github.com/PJLab-ADG/driveLikeAHuman) - 使用大型语言模型（LLM）以类人方式理解驾驶环境的潜力，并分析其在面对复杂场景时推理、解释和记忆的能力
 - [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) - 端到端完成从训练到部署的全流程图像分割应用
 - [Reason3D](https://github.com/kuanchihhuang/reason3d) - VQA图像理解
+- [Detect_VLM](https://github.com/kth-rpl/detect_vlm) - 极端场景下的VLMs检测交通参与者运动预测，涵盖了代理和场景两个层面（预计7月放出代码）
+- [GPT4V-AD-Exploration](https://github.com/pjlab-adg/gpt4v-ad-exploration) - 对最新的最先进的VLM——GPT-4V(ision)在自动驾驶场景中的应用进行了详尽的评估。探讨了该模型在理解和推理驾驶场景、做出决策以及最终作为驾驶员角色的能力。
+- [OccWorld](https://github.com/wzzheng/occworld) - 具备更强的表达能力、更高的获取效率和更广泛的适用性。通过学习基于重建的场景分词器和采用时空生成变换器，OccWorld能够生成后续的场景和自车标记，解码未来的占用和自车轨迹。
 
+
+### 驾驶员行为分析
+
+- [GPT-Driver](https://github.com/pointscoder/gpt-driver) - 将OpenAI GPT-3.5模型转变为可靠运动规划器，将运动规划重新表述为一个语言建模问题
+- [Driving-with-LLMs](https://github.com/wayveai/driving-with-llms) - 使用矢量标题语言数据将数值矢量模态与静态LLM表示对齐,引入了一种驾驶问答的评估指标
+- [LeapAD](https://github.com/pjlab-adg/leapad) - Carla中的驾驶员决策模拟
+
+### LLM其他
+
+- [TransGPT · 致远](https://github.com/DUOMO/TransGPT) - 通用常识交通大模型,交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能
+- [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM) - Spatial-Temporal Large Language Model for Traffic Prediction 交通流量预测
+- [GPT-ST](https://github.com/hkuds/gpt-st) - 交通管理和出行规划的时空预测
 
 
 ## 其他
@@ -68,9 +79,4 @@
 - [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
 - [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
 - [interPlan](https://github.com/mh0797/interplan) - 判断规划器在罕见情况下的泛化能力，包含了若干极端案例和具有挑战性的驾驶场景
-
-- [opencompass](https://github.com/open-compass/opencompass) - 支持任意模型、100多种数据集和多种结果输出方案。特点是开源可复现、能力维度全面、模型支持丰富、高效的分布式评测、多样化的评测范式以及灵活化的拓展
-- [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
-- [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
-
 
