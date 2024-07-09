@@ -5,7 +5,7 @@
     - [交通情况分类](#交通情况分类)
     - [场景理解](#场景理解)
     - [驾驶员行为分析](#驾驶员行为分析)
-    - [LLM其他](#LLM其他)
+    - [其他](#LLM其他)
 - [其他](#其他)
     - [基础模型](#基础模型)
     - [模型评价](#模型评价)
@@ -24,6 +24,7 @@
 - [交通模拟合集](https://github.com/zachytong/Awesome-Traffic-Simulation) -
 - [ChatScene](https://github.com/javyduck/ChatScene) - ChatScene首先使用LLM生成文本描述的交通场景。这些场景描述随后被分解成多个子描述，具体说明车辆的行为和位置。代理然后将这些文本描述的子场景显著地转换为特定领域的语言，从而生成实际的代码，用于预测和控制模拟器中的行为，促进在CARLA模拟环境中创建多样且复杂的场景。
 - [InstructDriver](https://github.com/bonbon-rj/instructdriver) - 通过明确的指令调优将LLM转化为运动规划器，使其行为与人类一致。基于人类逻辑和交通规则推导驾驶指令数据。然后采用一个可解释的InstructChain模块，进一步推理反映这些指令的最终规划。
+- [SMART](https://smart-motion.github.io/smart/) - 矢量化地图和agent轨迹的连续时间空间预测
 
 ### 交通情况分类
 
@@ -42,12 +43,15 @@
 - [Detect_VLM](https://github.com/kth-rpl/detect_vlm) - 极端场景下的VLMs检测交通参与者运动预测，涵盖了代理和场景两个层面（预计7月放出代码）
 - [GPT4V-AD-Exploration](https://github.com/pjlab-adg/gpt4v-ad-exploration) - 对最新的最先进的VLM——GPT-4V(ision)在自动驾驶场景中的应用进行了详尽的评估。探讨了该模型在理解和推理驾驶场景、做出决策以及最终作为驾驶员角色的能力。
 - [OccWorld](https://github.com/wzzheng/occworld) - 具备更强的表达能力、更高的获取效率和更广泛的适用性。通过学习基于重建的场景分词器和采用时空生成变换器，OccWorld能够生成后续的场景和自车标记，解码未来的占用和自车轨迹。
+- [Language Conditioned Traffic Generation](https://github.com/Ariostgx/lctgen) - 接收自然语言输入，输出车辆的图像预测
 
 ### 驾驶员行为分析
 
 - [GPT-Driver](https://github.com/pointscoder/gpt-driver) - 将OpenAI GPT-3.5模型转变为可靠运动规划器，将运动规划重新表述为一个语言建模问题
 - [Driving-with-LLMs](https://github.com/wayveai/driving-with-llms) - 使用矢量标题语言数据将数值矢量模态与静态LLM表示对齐,引入了一种驾驶问答的评估指标
 - [LeapAD](https://github.com/pjlab-adg/leapad) - Carla中的驾驶员决策模拟
+- []() -
+
 
 ### LLM其他
 
@@ -80,8 +84,4 @@
 - [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
 - [interPlan](https://github.com/mh0797/interplan) - 判断规划器在罕见情况下的泛化能力，包含了若干极端案例和具有挑战性的驾驶场景
 
-- [opencompass](https://github.com/open-compass/opencompass) - 支持任意模型、100多种数据集和多种结果输出方案。特点是开源可复现、能力维度全面、模型支持丰富、高效的分布式评测、多样化的评测范式以及灵活化的拓展
-- [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
-- [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
-- [interPlan](https://github.com/mh0797/interplan) - 判断规划器在罕见情况下的泛化能力，包含了若干极端案例和具有挑战性的驾驶场景
 
