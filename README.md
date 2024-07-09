@@ -5,7 +5,7 @@
     - [交通情况分类](#交通情况分类)
     - [场景理解](#场景理解)
     - [驾驶员行为分析](#驾驶员行为分析)
-    - [其他](#LLM其他)
+    - [LLM其他](#LLM其他)
 - [其他](#其他)
     - [基础模型](#基础模型)
     - [模型评价](#模型评价)
@@ -43,7 +43,6 @@
 - [GPT4V-AD-Exploration](https://github.com/pjlab-adg/gpt4v-ad-exploration) - 对最新的最先进的VLM——GPT-4V(ision)在自动驾驶场景中的应用进行了详尽的评估。探讨了该模型在理解和推理驾驶场景、做出决策以及最终作为驾驶员角色的能力。
 - [OccWorld](https://github.com/wzzheng/occworld) - 具备更强的表达能力、更高的获取效率和更广泛的适用性。通过学习基于重建的场景分词器和采用时空生成变换器，OccWorld能够生成后续的场景和自车标记，解码未来的占用和自车轨迹。
 
-
 ### 驾驶员行为分析
 
 - [GPT-Driver](https://github.com/pointscoder/gpt-driver) - 将OpenAI GPT-3.5模型转变为可靠运动规划器，将运动规划重新表述为一个语言建模问题
@@ -53,6 +52,7 @@
 ### LLM其他
 
 - [TransGPT · 致远](https://github.com/DUOMO/TransGPT) - 通用常识交通大模型,交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能
+- [TrafficGPT](https://github.com/lijlansg/TrafficGPT) - 处理交通数据，辅助人类决策，交互式反馈和结果修正
 - [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM) - Spatial-Temporal Large Language Model for Traffic Prediction 交通流量预测
 - [GPT-ST](https://github.com/hkuds/gpt-st) - 交通管理和出行规划的时空预测
 
@@ -75,6 +75,11 @@
 ### 模型评价
 
 - [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - 提供了一个统一的框架，用于在大量不同的评估任务中测试生成语言模型。
+- [opencompass](https://github.com/open-compass/opencompass) - 支持任意模型、100多种数据集和多种结果输出方案。特点是开源可复现、能力维度全面、模型支持丰富、高效的分布式评测、多样化的评测范式以及灵活化的拓展
+- [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
+- [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
+- [interPlan](https://github.com/mh0797/interplan) - 判断规划器在罕见情况下的泛化能力，包含了若干极端案例和具有挑战性的驾驶场景
+
 - [opencompass](https://github.com/open-compass/opencompass) - 支持任意模型、100多种数据集和多种结果输出方案。特点是开源可复现、能力维度全面、模型支持丰富、高效的分布式评测、多样化的评测范式以及灵活化的拓展
 - [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
 - [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
