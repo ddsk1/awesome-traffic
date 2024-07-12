@@ -45,12 +45,20 @@
 - [OccWorld](https://github.com/wzzheng/occworld) - 具备更强的表达能力、更高的获取效率和更广泛的适用性。通过学习基于重建的场景分词器和采用时空生成变换器，OccWorld能够生成后续的场景和自车标记，解码未来的占用和自车轨迹。
 - [Language Conditioned Traffic Generation](https://github.com/Ariostgx/lctgen) - 接收自然语言输入，输出车辆的图像预测
 
+
 ### 驾驶员行为分析
 
 - [GPT-Driver](https://github.com/pointscoder/gpt-driver) - 将OpenAI GPT-3.5模型转变为可靠运动规划器，将运动规划重新表述为一个语言建模问题
 - [Driving-with-LLMs](https://github.com/wayveai/driving-with-llms) - 使用矢量标题语言数据将数值矢量模态与静态LLM表示对齐,引入了一种驾驶问答的评估指标
 - [LeapAD](https://github.com/pjlab-adg/leapad) - Carla中的驾驶员决策模拟
-- []() -
+- [DriveLM](https://github.com/OpenDriveLab/DriveLM) - 是第一个与现有端到端规划模型兼容的驾驶世界模型。通过视图分解的联合时空建模，可以在驾驶场景中生成高保真的多视图视频，并根据基于图像的奖励确定最佳轨迹。
+- [DriveMLM](https://github.com/OpenGVLab/DriveMLM) - 多模态输入carla及现实情形决策（未放代码）
+- [LMDrive](https://github.com/opendilab/LMDrive) - 闭环端到端carla驾驶模拟，通过token化的指令和多个视角的视角和雷达分别输入，得到速度方向控制
+- [Agent-Driver](https://github.com/USC-GVL/Agent-Driver) - 加入认知和tools能力信息的判断，理解并运用（导航、识别、位置、预测）
+- [Drive Anywhere](https://drive-anywhere.github.io/) - 寻找与驾驶相关的特征，将特征放置至合适位置，移动对应特征以预测驾驶行为（未放出代码）
+- [Talk2BEV](https://github.com/llmbev/talk2bev) - 无需bev特定训练、视觉空间推理、意图预测、自然语言处理对齐
+- [GPT-Driver](https://github.com/PointsCoder/GPT-Driver) - 使用gpt3.5描述坐标位置的语言生成行驶轨迹，经过提示生成位置，之后引导推理，微调后得出结果
+- [DriveGPT4](https://tonyxuqaq.github.io/projects/DriveGPT4/) - 端到端预测车辆低级控制信号，可解释（未放代码）
 
 
 ### LLM其他
@@ -64,7 +72,7 @@
 ## 其他
 
 - [Datasets are not enough: Challenges in labeling network traffic](https://www.sciencedirect.com/science/article/abs/pii/S0167404822002048) - 交通网络数据准备（2022）
-- [交通轨迹预测合集](https://github.com/Psychic-DL/Awesome-Traffic-Agent-Trajectory-Prediction) -
+- [交通轨迹预测合集](https://github.com/Psychic-DL/Awesome-Traffic-Agent-Trajectory-Prediction) - 
 
 ### 基础模型
 
@@ -83,5 +91,8 @@
 - [Video-MME](https://github.com/BradyFU/Video-MME) - 多模态视频综合性能评测，多样性
 - [Video-Bench](https://github.com/PKU-YuanGroup/Video-Bench) - 将视频语言模型的能力定义为视频理解、基于先验知识的问题解答和理解与决策，构建了十个任务，包括人群计数、总结、驾驶决策等。问题形式使用单项选择题形式
 - [interPlan](https://github.com/mh0797/interplan) - 判断规划器在罕见情况下的泛化能力，包含了若干极端案例和具有挑战性的驾驶场景
+- [LaMPilot](https://github.com/PurdueDigitalTwin/LaMPilot) -  An Open Benchmark Dataset for Autonomous Driving with Language Model Programs（未放出）
+- [Reason2Drive](https://github.com/fudan-zvg/Reason2Drive) - 视觉-文本测试集及方式，关注在复杂环境中的原因理解，原理是可解释性和步骤逻辑推理
+- [Rank2Tell](https://arxiv.org/pdf/2309.06597) - 评判识别元素重要性分类数据集（未放出）
 
 
