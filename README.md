@@ -59,7 +59,13 @@
 - [Talk2BEV](https://github.com/llmbev/talk2bev) - 无需bev特定训练、视觉空间推理、意图预测、自然语言处理对齐
 - [GPT-Driver](https://github.com/PointsCoder/GPT-Driver) - 使用gpt3.5描述坐标位置的语言生成行驶轨迹，经过提示生成位置，之后引导推理，微调后得出结果
 - [DriveGPT4](https://tonyxuqaq.github.io/projects/DriveGPT4/) - 端到端预测车辆低级控制信号，可解释（未放代码）
-
+- [ADAPT](https://github.com/jxbbb/ADAPT) - 训练驾驶解释和预测任务，输出动作原因
+- [driVLMe](github.com/sled-group/driVLMe) - 外置最短路径导航模块，模拟中输入图像、使用者指令和对话历史、行动历史，输出回答和动作
+- [ELM](https://github.com/OpenDriveLab/ELM) - 具身智能、长距离时空信息、多任务输出
+- [MLMDriving](https://github.com/SaFoLab-WISC/Dolphins) - 思维链微调，和真人交互，功能：场景理解、预测计划、快速适应、错误改正、交谈
+- [RAG-Driver](https://github.com/YuanJianhao508/RAG-Driver) - 视觉、控制信号和任务指令，和通过回归预测得到的行动和原因指令、预测图像一起，通过编码器（文字和图像）输入模型，输出行动和原因和下一个控制信号
+- [LingoQA](https://github.com/wayveai/LingoQA) - VQA + 视频数据集
+- [drivecot](https://drivecot.github.io/) - 模块驾驶，通过六方位摄像头分化碰撞、灯、坡道、堵车、前车、路线历史检测头，通过逻辑判断控制
 
 ### LLM其他
 
